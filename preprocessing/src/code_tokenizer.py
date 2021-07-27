@@ -26,7 +26,7 @@ STRINGS_AND_COMMENTS_TOKEN_KINDS = {TokenKind.LITERAL, TokenKind.COMMENT}
 logging.basicConfig(
     filename='timeout_cpp_tokenizer_examples.log', level=logging.DEBUG)
 
-idx = clang.cindex.Index.create()
+#idx = clang.cindex.Index.create()
 
 JAVA_TOKEN2CHAR = {'STOKEN0': "//",
                    'STOKEN1': "/*",
